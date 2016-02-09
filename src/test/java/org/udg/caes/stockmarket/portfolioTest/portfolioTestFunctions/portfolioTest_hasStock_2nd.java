@@ -15,7 +15,7 @@ public class portfolioTest_hasStock_2nd extends portfolioTestBase {
 
     defineExpectations();
 
-    assertTrue("Porfolio should have stock", p.hasStock("s2"));
+    assertTrue("Portfolio should have stock", p.hasStock("s2"));
 
     new Verifications() {{
       s1.getName();
