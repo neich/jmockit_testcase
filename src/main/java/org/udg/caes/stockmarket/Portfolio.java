@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: imartin
- * Date: 22/10/13
- * Time: 13:33
- * To change this template use File | Settings | File Templates.
- */
 public class Portfolio implements Iterable<Stock> {
   private String mId;
   private List<Stock> mStocks = new ArrayList<Stock>();

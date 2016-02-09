@@ -6,9 +6,6 @@ import org.junit.Before;
 import org.udg.caes.stockmarket.Portfolio;
 import org.udg.caes.stockmarket.Stock;
 
-/**
- * Created by Jordi Auger on 28/12/2015.
- */
 public class portfolioTestBase {
   protected Portfolio p;
 
